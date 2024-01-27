@@ -71,6 +71,21 @@ LEFT JOIN planes ON flights.tailnum = planes.tailnum
 WHERE (flights.year = 2013 AND flights.month = 7 AND flights.day = 5)
 GROUP BY faa, manufacturer;
 
+PART 2
+
+The SQL script used to pull data into a .CSV file.
+
+SELECT Month, Airport, AVG(DepartureDelay) as AvgDelay
+FROM Flights
+WHERE Year = 2013 AND Airport IN ('JFK', 'LGA', 'EWR')
+GROUP BY Month, Airport
+ORDER BY Month, Airport;
+
+The Tableau workbook (or better, a link to your Tableau Public workbook)
+
+https://public.tableau.com/app/profile/priscilla.corona3343/viz/WorkBook1_17063257730740/Sheet1?publish=yes
+
+
 
 
 
