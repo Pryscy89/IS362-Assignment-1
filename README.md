@@ -83,6 +83,9 @@ ORDER BY Month, Airport;
 
 The Tableau workbook (or better, a link to your Tableau Public workbook)
 
+<img width="1440" alt="Screenshot 2024-01-26 at 10 23 28 PM" src="https://github.com/Pryscy89/IS362-Assignment-1/assets/114356398/2e0c9404-e03b-482f-ad08-e83b3981a069">
+
+
 https://public.tableau.com/app/profile/priscilla.corona3343/viz/WorkBook1_17063257730740/Sheet1?publish=yes
 
 
